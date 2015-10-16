@@ -3,7 +3,6 @@ package hello.redis;
 
 import org.junit.Assert;
 import org.junit.runner.RunWith;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -11,10 +10,10 @@ import javax.annotation.Resource;
 import java.util.Set;
 
 /**
+ * 演示Redis保存字符串。
  * Created by gaofu on 15-9-25.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ComponentScan(basePackageClasses = StringExample.class)
 @ContextConfiguration(locations = "classpath:/beans.xml")
 public class StringExampleTest {
 

@@ -12,6 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.annotation.Resource;
 
 /**
+ * 演示Redis保存Java POJO。
  * Created by gaofu on 15-10-16.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
